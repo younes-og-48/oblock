@@ -2,7 +2,7 @@
 $host     = 'sql113.infinityfree.com';
 $dbname   = 'if0_41424629_oblock';
 $user     = 'if0_41424629';
-$password = 'dq5ibJKZx0l8';
+$password = '';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $user, $password);
