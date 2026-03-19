@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OBLOCK</title>
+  <meta property="og:title" content="OBLOCK — Streetwear Marocain">
+  <meta property="og:description" content="Collection exclusive. Livraison gratuite dès 500dh.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <script src="panier.js" defer></script>
+</head>
+<body>
+
+<div class="splash" id="splash">
+  <div class="splash-logo">OBLOCK</div>
+</div>
+
+<header class="header">
+  <div class="cart-container">
+    <i class="fa-solid fa-cart-shopping cart-icon"></i>
+    <span class="cart-badge" style="display:none">0</span>
+  </div>
+  <span class="header-logo-text">OBLOCK</span>
+  <div class="menu-btn" id="menuBtn">
+    <span></span><span></span><span></span>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-bg">
+    <img src="oblock.jpg" alt="OBLOCK Hero" class="hero-img">
+    <div class="hero-overlay"></div>
+  </div>
+  <div class="hero-content">
+    <p class="hero-sub">Nouvelle Collection</p>
+    <h1 class="hero-title">WEAR<br>THE<br>BLOCK</h1>
+    <p class="hero-desc">Streetwear fait pour la rue.<br>Livraison gratuite dès 500dh.</p>
+    <a href="#collection" class="hero-btn">Découvrir →</a>
+  </div>
+  <div class="hero-ticker">
+    <div class="ticker-track">
+      <span>OBLOCK &nbsp;·&nbsp; NEW DROP &nbsp;·&nbsp; STREETWEAR &nbsp;·&nbsp; MAROC &nbsp;·&nbsp; OBLOCK &nbsp;·&nbsp; NEW DROP &nbsp;·&nbsp; STREETWEAR &nbsp;·&nbsp; MAROC &nbsp;·&nbsp; OBLOCK &nbsp;·&nbsp; NEW DROP &nbsp;·&nbsp; STREETWEAR &nbsp;·&nbsp; MAROC &nbsp;·&nbsp;</span>
+      <span>OBLOCK &nbsp;·&nbsp; NEW DROP &nbsp;·&nbsp; STREETWEAR &nbsp;·&nbsp; MAROC &nbsp;·&nbsp; OBLOCK &nbsp;·&nbsp; NEW DROP &nbsp;·&nbsp; STREETWEAR &nbsp;·&nbsp; MAROC &nbsp;·&nbsp; OBLOCK &nbsp;·&nbsp; NEW DROP &nbsp;·&nbsp; STREETWEAR &nbsp;·&nbsp; MAROC &nbsp;·&nbsp;</span>
+    </div>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="stat-item"><span class="stat-num">100+</span><span class="stat-label">Clients satisfaits</span></div>
+  <div class="stat-divider"></div>
+  <div class="stat-item"><span class="stat-num">FREE</span><span class="stat-label">Livraison dès 500dh</span></div>
+  <div class="stat-divider"></div>
+  <div class="stat-item"><span class="stat-num">24H</span><span class="stat-label">Livraison rapide</span></div>
+</section>
+
+<section class="coll" id="collection">
+  <div class="coll-header reveal">
+    <p class="coll-eyebrow">— Drop 001</p>
+    <h2 class="coll-title">HOODIES</h2>
+  </div>
+  <div class="products-row">
+    <a href="produit1.html" class="product-card reveal">
+      <div class="product-badge">NEW</div>
+      <div class="product-image"><img src="produit1.1.jpg" alt="Core Comfort Hoodie"></div>
+      <div class="product-footer">
+        <div><p class="product-name">Core Comfort Hoodie</p><p class="product-price">150 DH</p></div>
+        <span class="product-arrow">→</span>
+      </div>
+    </a>
+    <a href="#" class="product-card reveal">
+      <div class="product-badge">SOON</div>
+      <div class="product-image"><img src="produit1.1.jpg" alt="OBlock Tee"></div>
+      <div class="product-footer">
+        <div><p class="product-name">OBlock Tee</p><p class="product-price">Coming Soon</p></div>
+        <span class="product-arrow">→</span>
+      </div>
+    </a>
+    <a href="#" class="product-card product-card-locked reveal">
+      <div class="product-badge product-badge-dark">DROP 2</div>
+      <div class="product-image product-image-blur">
+        <img src="produit1.1.jpg" alt="Produit 3">
+        <div class="product-lock"><i class="fa-solid fa-lock"></i><span>Bientôt</span></div>
+      </div>
+      <div class="product-footer">
+        <div><p class="product-name">???</p><p class="product-price">Coming Soon</p></div>
+        <span class="product-arrow">🔒</span>
+      </div>
+    </a>
+  </div>
+</section>
+
+<section class="coll" id="collection2">
+  <div class="coll-header reveal">
+    <p class="coll-eyebrow">— Drop 002</p>
+    <h2 class="coll-title">NOUVEAUX</h2>
+  </div>
+  <div class="products-row">
+    <a href="#" class="product-card reveal">
+      <div class="product-badge product-badge-dark">NEW</div>
+      <div class="product-image product-image-empty"></div>
+      <div class="product-footer">
+        <div><p class="product-name">Nom du produit</p><p class="product-price">XXX DH</p></div>
+        <span class="product-arrow">→</span>
+      </div>
+    </a>
+    <a href="#" class="product-card reveal">
+      <div class="product-badge product-badge-dark">NEW</div>
+      <div class="product-image product-image-empty"></div>
+      <div class="product-footer">
+        <div><p class="product-name">Nom du produit</p><p class="product-price">XXX DH</p></div>
+        <span class="product-arrow">→</span>
+      </div>
+    </a>
+  </div>
+</section>
+
+<section class="about">
+  <div class="about-line"></div>
+  <div class="about-content reveal">
+    <p class="about-eyebrow">— Notre histoire</p>
+    <h2 class="about-title">NÉ DANS<br>LA RUE.</h2>
+    <p class="about-text">OBLOCK c'est plus qu'une marque — c'est un état d'esprit. Créée au Maroc, pour ceux qui vivent la rue, qui la respirent, qui la portent.</p>
+    <a href="https://wa.me/212652495627" target="_blank" class="about-btn">Nous contacter →</a>
+  </div>
+  <div class="about-big-text">OBLOCK</div>
+</section>
+
+<footer class="fin">
+  <p class="footer-brand">OBLOCK</p>
+  <div class="social">
+    <a href="https://www.instagram.com/younes_og_48" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.tiktok.com/@younes_og_48" target="_blank"><i class="fab fa-tiktok"></i></a>
+    <a href="https://wa.me/212652495627" target="_blank"><i class="fab fa-whatsapp"></i></a>
+  </div>
+  <p id="by">© 2026 - Tous droits réservés · by <a href="https://www.instagram.com/younes_og_48" target="_blank" id="you">YOUNES OG</a></p>
+  <div class="poly">
+    <a href="#" id="linkConfidentialite" class="po">Politique de confidentialité</a> |
+    <a href="#" id="linkConditions" class="po">Conditions d'utilisation</a> |
+    <a href="#" id="linkRemboursement" class="po">Politique de remboursement</a>
+  </div>
+</footer>
+
+<nav class="side-menu" id="sideMenu">
+  <div class="close-btn" id="closeMenu">✕</div>
+  <div class="side-menu-logo">OBLOCK</div>
+  <a href="#" id="linkAccueil">Accueil</a>
+  <a href="#collection" id="linkBoutique">Boutique</a>
+  <a href="#" id="linkAbout">À propos</a>
+  <a href="#" id="linkContact">Contact</a>
+  <button class="dark-btn" id="darkModeBtn">🌙 Mode sombre</button>
+</nav>
+
+<div class="overlay" id="overlay"></div>
+
+<a class="whatsapp-btn" href="https://wa.me/212652495627" target="_blank">
+  <i class="fab fa-whatsapp"></i>
+  <span>Commander sur WhatsApp</span>
+</a>
+
+<!-- MODALS -->
+<div class="modal-overlay" id="modalAbout">
+  <div class="modal-box">
+    <button class="modal-close" id="closeAbout">✕</button>
+    <div class="modal-content">
+      <p class="modal-eyebrow">— Notre ADN</p>
+      <h2 class="modal-title">ON EST<br>PAS UNE<br>MARQUE.</h2>
+      <p class="modal-text">OBLOCK est né dans la rue, pour la rue. On crée des pièces pour ceux qui vivent vrai — ceux qui marchent la tête haute, qui portent leur quartier sur le dos.</p>
+      <p class="modal-text">Chaque hoodie pensé avec une obsession : la qualité qui dure, le style qui parle.</p>
+      <div class="modal-tags"><span>#MadeInMaroc</span><span>#Streetwear</span><span>#OBLOCK</span></div>
+      <div class="modal-stats">
+        <div class="modal-stat"><strong>100+</strong><span>Clients</span></div>
+        <div class="modal-stat"><strong>2024</strong><span>Fondée</span></div>
+        <div class="modal-stat"><strong>🇲🇦</strong><span>Maroc</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="modalContact">
+  <div class="modal-box">
+    <button class="modal-close" id="closeContact">✕</button>
+    <div class="modal-content">
+      <p class="modal-eyebrow">— On est là</p>
+      <h2 class="modal-title-sm">PARLE<br>NOUS.</h2>
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <div class="form-group"><label>Prénom</label><input type="text" placeholder="Yassine" id="fname"></div>
+          <div class="form-group"><label>Nom</label><input type="text" placeholder="Alaoui" id="lname"></div>
+        </div>
+        <div class="form-group"><label>Téléphone / Email</label><input type="text" placeholder="+212 6XX XXX XXX ou email@..." id="contact"></div>
+        <div class="form-group"><label>Votre message</label><textarea placeholder="Je veux commander..." id="message" rows="4"></textarea></div>
+        <button type="button" class="form-submit" id="formSubmit"><span>Envoyer →</span></button>
+      </form>
+      <div class="form-success" id="formSuccess">
+        <div class="success-icon">✓</div>
+        <p>Message reçu !</p>
+        <p class="success-sub">On te répond sur WhatsApp très vite.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="modalConditions">
+  <div class="modal-box">
+    <button class="modal-close" id="closeConditions">✕</button>
+    <div class="modal-content">
+      <p class="modal-eyebrow">— Légal</p>
+      <h2 class="modal-title">CONDITIONS<br>D'UTILISATION.</h2>
+      <div class="legal-section"><h3>1. Acceptation</h3><p>En accédant au site OBLOCK, vous acceptez sans réserve les présentes conditions.</p></div>
+      <div class="legal-section"><h3>2. Produits</h3><p>Tous les produits sont soumis à disponibilité. Les photos peuvent légèrement différer du produit réel.</p></div>
+      <div class="legal-section"><h3>3. Commandes</h3><p>Toute commande passée constitue un engagement d'achat ferme.</p></div>
+      <div class="legal-section"><h3>4. Prix</h3><p>Les prix sont en Dirhams marocains (DH) et peuvent être modifiés sans préavis.</p></div>
+      <div class="legal-section"><h3>5. Contact</h3><p>Pour toute question : <strong>+212 652 495 627</strong></p></div>
+    </div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="modalRemboursement">
+  <div class="modal-box">
+    <button class="modal-close" id="closeRemboursement">✕</button>
+    <div class="modal-content">
+      <p class="modal-eyebrow">— Satisfait ou remboursé</p>
+      <h2 class="modal-title">POLITIQUE DE<br>REMBOURSE<br>MENT.</h2>
+      <div class="legal-section legal-highlight"><p>✓ &nbsp;Retour accepté sous <strong>7 jours</strong> après réception</p></div>
+      <div class="legal-section"><h3>Conditions</h3><p>Produit non porté, non lavé, avec étiquettes.</p></div>
+      <div class="legal-section"><h3>Remboursement</h3><p>Effectué sous <strong>3 à 5 jours ouvrables</strong> après vérification.</p></div>
+    </div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="modalConfidentialite">
+  <div class="modal-box">
+    <button class="modal-close" id="closeConfidentialite">✕</button>
+    <div class="modal-content">
+      <p class="modal-eyebrow">— Dernière mise à jour : 30 janvier 2026</p>
+      <h2 class="modal-title">POLITIQUE DE<br>CONFIDEN<br>TIALITÉ.</h2>
+      <div class="legal-section"><h3>1. Identité</h3><p>Nom : <strong>OBLOCK</strong> · Contact : <strong>younes@gmail.com</strong></p></div>
+      <div class="legal-section"><h3>2. Données collectées</h3><p>Nom, prénom, e-mail, adresse, téléphone, données de navigation.</p></div>
+      <div class="legal-section"><h3>3. Utilisation</h3><p>Traitement des commandes, amélioration du site, communications marketing avec consentement.</p></div>
+      <div class="legal-section"><h3>4. Vos droits</h3><p>Accès, rectification, suppression de vos données à tout moment.</p></div>
+      <div class="legal-section"><h3>5. Contact</h3><p><strong>younes@gmail.com</strong></p></div>
+    </div>
+  </div>
+</div>
+
+<!-- PANEL PANIER -->
+<div class="cart-toast" id="cartToast"><span>✓</span> Article ajouté !</div>
+
+<div class="panier-overlay" id="panierOverlay">
+  <div class="panier-panel">
+    <div class="panier-header">
+      <div class="panier-header-left">
+        <i class="fa-solid fa-cart-shopping" style="font-size:18px;color:#fff;"></i>
+        <h2>MON PANIER</h2>
+      </div>
+      <button class="panier-close" id="panierClose">✕</button>
+    </div>
+
+    <!-- Étape 1 : Articles -->
+    <div id="panierStep1" style="display:flex;flex-direction:column;flex:1;overflow:hidden;">
+      <div class="panier-body" id="panierBody"></div>
+      <div class="panier-footer" id="panierFooter" style="display:none;">
+        <div class="panier-total-row">
+          <span>Total</span>
+          <strong id="panierTotal">0 DH</strong>
+        </div>
+        <button class="panier-commander-btn" onclick="PANIER.goStep(2)">Passer la commande →</button>
+        <button class="panier-vider-btn" onclick="PANIER.vider()">Vider le panier</button>
+      </div>
+    </div>
+
+    <!-- Étape 2 : Infos client -->
+    <div id="panierStep2" style="display:none;flex-direction:column;flex:1;overflow-y:auto;">
+      <div class="panier-form-wrap">
+        <button class="panier-back-btn" onclick="PANIER.goStep(1)">← Retour au panier</button>
+        <p class="panier-form-eyebrow">— Livraison</p>
+        <h3 class="panier-form-title">VOS<br>INFOS.</h3>
+        <div class="panier-form">
+          <div class="panier-form-row">
+            <div class="panier-form-group"><label>Prénom</label><input type="text" id="pPrenom" placeholder="Yassine"></div>
+            <div class="panier-form-group"><label>Nom</label><input type="text" id="pNom" placeholder="Alaoui"></div>
+          </div>
+          <div class="panier-form-group"><label>Téléphone</label><input type="tel" id="pTel" placeholder="+212 6XX XXX XXX"></div>
+          <div class="panier-form-group"><label>Ville</label><input type="text" id="pVille" placeholder="Casablanca"></div>
+          <div class="panier-form-group"><label>Adresse complète</label><textarea id="pAdresse" placeholder="Rue, quartier, numéro..." rows="3"></textarea></div>
+          <p class="panier-form-error" id="panierFormError" style="display:none;">⚠ Remplis tous les champs</p>
+          <button class="panier-commander-btn" onclick="PANIER.confirmer()">✓ Confirmer la commande</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Étape 3 : Succès -->
+    <div id="panierStep3" style="display:none;flex-direction:column;flex:1;align-items:center;justify-content:center;padding:40px 24px;text-align:center;">
+      <div class="panier-success-icon">✓</div>
+      <h3 class="panier-success-title">COMMANDE<br>REÇUE !</h3>
+      <p class="panier-success-text">On traite ta commande et on te contacte très vite.</p>
+      <button class="panier-commander-btn" style="margin-top:32px;" onclick="PANIER.close()">Fermer</button>
+    </div>
+
+  </div>
+</div>
+
+<script>
+var splashDone = false;
+function hideSplash() {
+  if (splashDone) return;
+  splashDone = true;
+  var s = document.getElementById('splash');
+  s.style.opacity = '0';
+  s.style.pointerEvents = 'none';
+  setTimeout(function(){ s.style.display = 'none'; }, 600);
+}
+window.addEventListener('load', function(){ setTimeout(hideSplash, 1800); });
+setTimeout(hideSplash, 3000);
+
+var menuBtn    = document.getElementById('menuBtn');
+var sideMenu   = document.getElementById('sideMenu');
+var overlay    = document.getElementById('overlay');
+var closeMenu  = document.getElementById('closeMenu');
+var darkModeBtn= document.getElementById('darkModeBtn');
+
+menuBtn.addEventListener('click', function(){ menuBtn.classList.toggle('open'); sideMenu.classList.toggle('open'); overlay.classList.toggle('show'); });
+overlay.addEventListener('click', function(){ menuBtn.classList.remove('open'); sideMenu.classList.remove('open'); overlay.classList.remove('show'); });
+closeMenu.addEventListener('click', function(){ menuBtn.classList.remove('open'); sideMenu.classList.remove('open'); overlay.classList.remove('show'); });
+
+function toggleDarkMode(){ var isDark=document.body.classList.toggle('dark'); if(isDark){ localStorage.setItem('darkMode','enabled'); localStorage.setItem('darkModeExpire',new Date().getTime()+24*60*60*1000); } else { localStorage.removeItem('darkMode'); localStorage.removeItem('darkModeExpire'); } }
+function checkDarkMode(){ var d=localStorage.getItem('darkMode'),e=localStorage.getItem('darkModeExpire'),n=new Date().getTime(); if(d==='enabled'&&e&&n<e) document.body.classList.add('dark'); else { localStorage.removeItem('darkMode'); localStorage.removeItem('darkModeExpire'); } }
+darkModeBtn.addEventListener('click', toggleDarkMode);
+checkDarkMode();
+
+document.querySelectorAll('.stat-item').forEach(function(s){ new IntersectionObserver(function(entries){ entries.forEach(function(e){ if(e.isIntersecting) e.target.classList.add('visible'); }); },{threshold:0.3}).observe(s); });
+document.querySelectorAll('.reveal').forEach(function(r){ new IntersectionObserver(function(entries,obs){ entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('revealed'); obs.unobserve(e.target); } }); },{threshold:0.15}).observe(r); });
+
+document.getElementById('linkAccueil').addEventListener('click', function(e){ e.preventDefault(); sideMenu.classList.remove('open'); overlay.classList.remove('show'); menuBtn.classList.remove('open'); window.scrollTo({top:0,behavior:'smooth'}); });
+document.getElementById('linkBoutique').addEventListener('click', function(){ sideMenu.classList.remove('open'); overlay.classList.remove('show'); menuBtn.classList.remove('open'); });
+
+function bindModal(openId,modalId,closeId){ var modal=document.getElementById(modalId); document.getElementById(openId).addEventListener('click',function(e){ e.preventDefault(); modal.classList.add('open'); sideMenu.classList.remove('open'); overlay.classList.remove('show'); menuBtn.classList.remove('open'); }); document.getElementById(closeId).addEventListener('click',function(){ modal.classList.remove('open'); }); modal.addEventListener('click',function(e){ if(e.target===modal) modal.classList.remove('open'); }); }
+bindModal('linkAbout','modalAbout','closeAbout');
+bindModal('linkContact','modalContact','closeContact');
+bindModal('linkConditions','modalConditions','closeConditions');
+bindModal('linkRemboursement','modalRemboursement','closeRemboursement');
+bindModal('linkConfidentialite','modalConfidentialite','closeConfidentialite');
+
+document.getElementById('formSubmit').addEventListener('click', function(){
+  var fname=document.getElementById('fname').value.trim();
+  var lname=document.getElementById('lname').value.trim();
+  var contact=document.getElementById('contact').value.trim();
+  var message=document.getElementById('message').value.trim();
+  if(!fname||!contact||!message){ alert('Remplis au moins le prénom, ton contact et ton message.'); return; }
+  var txt='Bonjour OBLOCK\n\nNom : '+fname+' '+lname+'\nContact : '+contact+'\nMessage : '+message;
+  window.open('https://wa.me/212652495627?text='+encodeURIComponent(txt),'_blank');
+  document.getElementById('contactForm').classList.add('hide');
+  document.getElementById('formSuccess').classList.add('show');
+  setTimeout(function(){ document.getElementById('modalContact').classList.remove('open'); setTimeout(function(){ document.getElementById('contactForm').classList.remove('hide'); document.getElementById('formSuccess').classList.remove('show'); document.getElementById('fname').value=''; document.getElementById('lname').value=''; document.getElementById('contact').value=''; document.getElementById('message').value=''; },400); },2500);
+});
+</script>
+
+</body>
+</html>
